@@ -3,7 +3,12 @@ import { useState } from 'react';
 function Home(){
     return (
         <div>
-            <h1>Home</h1>
+            <h1>Página inicial</h1>
+
+            <Link href="/sobre">
+            <a>Acessar Página Sobre</a>  
+            </Link>
+            
             <Contador />
         </div>
     )
